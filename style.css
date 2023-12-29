@@ -1,0 +1,18 @@
+
+html {
+  background-color: #EDEAD8; 
+}
+
+body {
+    background-color: #EDEAD8;
+    border: none;	
+	}
+
+td {
+    width: 1500;
+	text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 30pt;	
+	font-style: bold;
+	
+}
