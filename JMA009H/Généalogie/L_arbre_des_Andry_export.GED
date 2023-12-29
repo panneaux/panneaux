@@ -1,0 +1,670 @@
+0 HEAD
+1 SOUR GENEALOGIC
+2 VERS 2005.1.66
+2 CORP Infoduc
+3 ADDR 67 rue Pelleport
+4 POST 33800
+4 CITY BORDEAUX
+4 CTRY FRANCE
+1 DATE 5 JUN 2006
+1 GEDC
+2 VERS 5.5
+2 FORM Lineage - Linked
+1 CHAR ANSEL
+1 LANG FRENCH
+1 PLAC
+2 FORM Lieu dit  , abrâev.dâep., abrâev.râegion, abrâev.pays
+0 @I1@ INDI
+1 NAME Câedric/Andry/
+1 SEX M
+1 BIRT
+2 DATE 31 MAR 1976
+2 PLAC Crâeteil , 94, IleFr, FRA
+1 BAPM
+2 DATE 1977
+2 PLAC Meaux , 77, IleFr, FRA
+1 OCCU Ingâenieur informaticien
+1 FAMS @F2@
+1 FAMC @F1@
+0 @I2@ INDI
+1 NAME Jean-Michel/Andry/
+1 SEX M
+1 BIRT
+2 DATE 11 JUN 1948
+2 PLAC Meaux
+1 OCCU Ingâenieur des travaux publics
+1 FAMS @F1@
+1 FAMC @F10@
+0 @I3@ INDI
+1 NAME Franðcoise/Bouvier/
+1 SEX F
+1 BIRT
+2 DATE 26 AUG 1948
+2 PLAC Paris
+1 OCCU Intendante
+1 FAMS @F1@
+1 FAMC @F6@
+0 @I4@ INDI
+1 NAME Aurâelie/Tozzi/
+1 SEX F
+1 BIRT
+2 DATE 10 JUL 1978
+2 PLAC Saint Maur , 94, IleFr, FRA
+1 FAMS @F2@
+1 FAMC @F3@
+0 @I5@ INDI
+1 NAME Savine/Andry/
+1 SEX F
+1 BIRT
+2 DATE 27 NOV 1973
+2 PLAC Crâeteil , 94, IleFr, FRA
+1 OCCU Ingâenieur des travaux publics
+1 FAMS @F24@
+1 FAMC @F1@
+0 @I6@ INDI
+1 NAME Pierre/Tozzi/
+1 SEX M
+1 BIRT
+2 DATE 16 JUN 1953
+2 PLAC Paris
+1 OCCU Ingâenieur Commercial
+1 FAMS @F3@
+1 FAMC @F5@
+0 @I7@ INDI
+1 NAME Catherine/Roux/
+1 SEX F
+1 BIRT
+2 DATE 8 NOV 1953
+2 PLAC Chantilly
+1 OCCU Intendante
+1 FAMS @F3@
+1 FAMC @F4@
+0 @I8@ INDI
+1 NAME Marcel/Roux/
+1 SEX M
+1 OCCU Ingâenieur
+1 FAMS @F4@
+0 @I9@ INDI
+1 NAME Fernande/Ourlin/
+1 SEX F
+1 FAMS @F4@
+0 @I10@ INDI
+1 NAME Jean-Baptiste/Tozzi/
+1 SEX M
+1 OCCU Entrepreneur
+1 FAMS @F5@
+0 @I11@ INDI
+1 NAME Suzanne/Godard/
+1 SEX F
+1 BIRT
+2 DATE 4 OCT 1911
+2 PLAC Saint Etienne du pauvray
+1 OCCU Gâerante
+1 FAMS @F5@
+0 @I12@ INDI
+1 NAME Andrâe/Bouvier/
+1 SEX M
+1 BIRT
+2 PLAC Paris
+1 DEAT
+2 DATE 1985
+2 PLAC Villeneuve Saint Georges
+1 OCCU Percepteur Des Impãots
+1 FAMS @F6@
+0 @I13@ INDI
+1 NAME Jeanne/Le Tocquin/
+1 SEX F
+1 DEAT
+2 DATE 1986
+2 PLAC Villeneuve Saint Georges
+1 OCCU Femme Au Foyer
+1 FAMS @F6@
+1 FAMC @F18@
+0 @I14@ INDI
+1 NAME Elyane/Bouvier/
+1 SEX F
+1 BIRT
+2 DATE 1951
+2 PLAC Vigneux , 91, IleFr, FRA
+1 OCCU Agent Du Service Public
+1 FAMS @F7@
+1 FAMC @F6@
+0 @I15@ INDI
+1 NAME Daniel/Bouvier/
+1 SEX M
+1 BIRT
+2 DATE 1949
+2 PLAC Vigneux , 91, IleFr, FRA
+1 OCCU Ingâenieur Gâeomáetre
+1 FAMS @F9@
+1 FAMC @F6@
+0 @I16@ INDI
+1 NAME Gâerard/Rigaud/
+1 SEX M
+1 BIRT
+2 PLAC Ouveillan , 11, LRous, FRA
+1 OCCU Agent Des Douanes
+1 FAMS @F7@
+1 FAMC @F8@
+0 @I17@ INDI
+1 NAME Andrâe/Rigaud/
+1 SEX M
+1 BIRT
+2 PLAC Ouveillan , 11, LRous, FRA
+1 OCCU Vigneron
+1 FAMS @F8@
+0 @I18@ INDI
+1 NAME Lucette//
+1 SEX F
+1 BIRT
+2 PLAC Ouveillan , 11, LRous, FRA
+1 FAMS @F8@
+0 @I19@ INDI
+1 NAME Jacqueline/Bouvier/
+1 SEX F
+1 OCCU Infirmiáere
+1 FAMC @F6@
+0 @I20@ INDI
+1 NAME Jocelyne/Sonnet/
+1 SEX F
+1 FAMS @F9@
+1 FAMC @F17@
+0 @I21@ INDI
+1 NAME Sandrine/Bouvier/
+1 SEX F
+1 BIRT
+2 DATE 3 MAR 1978
+2 PLAC Chambâery
+1 FAMC @F9@
+0 @I22@ INDI
+1 NAME Jâerome/Bouvier/
+1 SEX M
+1 BIRT
+2 DATE 10 NOV 1981
+2 PLAC Chambâery , 73, RHALP, FRA
+1 OCCU Plombier
+1 FAMC @F9@
+0 @I23@ INDI
+1 NAME Michaèel/Bouvier/
+1 SEX M
+1 FAMC @F9@
+0 @I24@ INDI
+1 NAME Marcel, Raymond/Andry/
+1 SEX M
+1 BIRT
+2 DATE 1922
+2 PLAC Varredes , 77, IleFr, FRA
+1 DEAT
+2 DATE 1957
+2 PLAC Pontault-Combault , 94, IleFr, FRA
+1 OCCU Commisaire de police
+1 FAMS @F10@
+0 @I25@ INDI
+1 NAME Odile/Martin/
+1 SEX F
+1 BIRT
+2 DATE 27 NOV 1922
+2 PLAC Fublaines , 77, IleFr, FRA
+1 OCCU Econome
+1 FAMS @F10@
+1 FAMC @F11@
+0 @I26@ INDI
+1 NAME Eugâenie/Martin/
+1 SEX F
+1 BIRT
+2 DATE 1901
+2 PLAC Fublaines , 77, IleFr, FRA
+1 DEAT
+2 DATE 1992
+2 PLAC Meaux , 77, IleFr, FRA
+1 OCCU Boucháere
+1 FAMS @F11@
+1 FAMC @F28@
+0 @I27@ INDI
+1 NAME Arsáene/Tixier/
+1 SEX M
+1 OCCU Boucher
+1 FAMS @F11@
+0 @I28@ INDI
+1 NAME Guy/Tixier/
+1 SEX M
+1 OCCU Staffeur
+1 FAMS @F12@
+1 FAMC @F11@
+0 @I29@ INDI
+1 NAME Jeanine//
+1 SEX F
+1 FAMS @F12@
+0 @I30@ INDI
+1 NAME Dominique/Tixier/
+1 SEX F
+1 OCCU Professeur Des âEcoles
+1 FAMS @F16@
+1 FAMS @F21@
+1 FAMC @F12@
+0 @I31@ INDI
+1 NAME Jean-Marc/Tixier/
+1 SEX M
+1 FAMC @F12@
+0 @I32@ INDI
+1 NAME Raoul/Tixier/
+1 SEX M
+1 OCCU Boucher
+1 FAMS @F13@
+1 FAMC @F11@
+0 @I33@ INDI
+1 NAME Lucette//
+1 SEX F
+1 FAMS @F13@
+0 @I34@ INDI
+1 NAME Claudie/Tixier/
+1 SEX F
+1 FAMS @F14@
+1 FAMC @F13@
+0 @I35@ INDI
+1 NAME Audrey/Ducamp/
+1 SEX F
+1 BIRT
+2 DATE 1977
+2 PLAC Meaux
+1 FAMS @F15@
+1 FAMC @F14@
+0 @I36@ INDI
+1 NAME Franðcois/Ducamp/
+1 SEX M
+1 OCCU Entrepreneur
+1 FAMS @F14@
+0 @I37@ INDI
+1 NAME Philippe//
+1 SEX M
+1 FAMS @F15@
+0 @I38@ INDI
+1 NAME Marc/Fontanilles/
+1 SEX M
+1 FAMS @F16@
+0 @I39@ INDI
+1 NAME Xavier/Fontanilles/
+1 SEX F
+1 BIRT
+2 DATE 1977
+1 FAMC @F16@
+0 @I40@ INDI
+1 NAME Olivier/Rigaud/
+1 SEX M
+1 BIRT
+2 DATE 10 MAR 1977
+2 PLAC Villeneuve-saint-georges , 94, IleFr, FRA
+1 OCCU Journaliste
+1 FAMC @F7@
+0 @I41@ INDI
+1 NAME //
+1 SEX F
+1 FAMS @F17@
+0 @I42@ INDI
+1 NAME /Sonnet/
+1 SEX M
+1 FAMS @F17@
+0 @I43@ INDI
+1 NAME Benoit/Sonnet/
+1 SEX M
+1 OCCU Ingâenieur informaticien
+1 FAMC @F17@
+0 @I44@ INDI
+1 NAME Pascal/Sonnet/
+1 SEX M
+1 FAMC @F17@
+0 @I45@ INDI
+1 NAME /Sonnet/
+1 SEX M
+1 OCCU Militaire
+1 FAMC @F17@
+0 @I46@ INDI
+1 NAME /Le Tocquin/
+1 SEX M
+1 OCCU Agriculteur
+1 FAMS @F18@
+0 @I47@ INDI
+1 NAME Emile/Le Tocquin/
+1 SEX M
+1 FAMS @F19@
+1 FAMC @F18@
+0 @I48@ INDI
+1 NAME Marie//
+1 SEX F
+1 FAMS @F19@
+0 @I49@ INDI
+1 NAME Brigitte/Le Tocquin/
+1 SEX F
+1 FAMS @F20@
+1 FAMC @F19@
+0 @I50@ INDI
+1 NAME Yves/Le Breton/
+1 SEX M
+1 OCCU Assureur
+1 FAMS @F20@
+0 @I51@ INDI
+1 NAME Goulven/Le Breton/
+1 SEX M
+1 BIRT
+2 DATE 1981
+1 FAMC @F20@
+0 @I52@ INDI
+1 NAME Gwenaic/Le Breton/
+1 SEX F
+1 FAMC @F20@
+0 @I53@ INDI
+1 NAME Jean-Franðcois/Fredon/
+1 SEX M
+1 OCCU Professeur Des âEcoles
+1 FAMS @F21@
+0 @I54@ INDI
+1 NAME Pierre/Fredon/
+1 SEX M
+1 BIRT
+2 DATE 1985
+1 FAMC @F21@
+0 @I55@ INDI
+1 NAME Mathieu/Fredon/
+1 SEX M
+1 BIRT
+2 DATE 1985
+1 FAMC @F21@
+0 @I56@ INDI
+1 NAME Marie Hâeláene/Andry/
+1 SEX F
+1 BIRT
+2 DATE FEB 1954
+2 PLAC Meaux , 77, IleFr, FRA
+1 OCCU Institutrice de maternelle
+1 FAMS @F25@
+1 FAMC @F10@
+0 @I57@ INDI
+1 NAME Marie Hâeláene/Roux/
+1 SEX F
+1 OCCU Employâee De Mairie
+1 FAMS @F22@
+1 FAMC @F4@
+0 @I58@ INDI
+1 NAME Nicole/Roux/
+1 SEX F
+1 OCCU Orthophoniste
+1 FAMS @F23@
+1 FAMC @F4@
+0 @I59@ INDI
+1 NAME Jean-Pierre/Dias Das Almas/
+1 SEX M
+1 OCCU Docteur
+1 FAMS @F22@
+0 @I60@ INDI
+1 NAME Sophie/Dias Das Almas/
+1 SEX F
+1 FAMC @F22@
+0 @I61@ INDI
+1 NAME Râemi/Dias Das Almas/
+1 SEX M
+1 FAMC @F22@
+0 @I62@ INDI
+1 NAME Patrick/Desjardin/
+1 SEX M
+1 OCCU Militaire
+1 FAMS @F23@
+0 @I63@ INDI
+1 NAME Thibaut/Desjardin/
+1 SEX M
+1 OCCU Ingâenieur informaticien
+1 FAMC @F23@
+0 @I64@ INDI
+1 NAME Antoine/Desjardin/
+1 SEX M
+1 FAMC @F23@
+0 @I65@ INDI
+1 NAME Anne-Claire/Desjardin/
+1 SEX F
+1 FAMC @F23@
+0 @I66@ INDI
+1 NAME Alexandre/Cuer/
+1 SEX M
+1 BIRT
+2 DATE NOV 1973
+1 FAMS @F24@
+0 @I67@ INDI
+1 NAME Ludivine/Cuer/
+1 SEX F
+1 BIRT
+2 DATE 13 FEB 2002
+2 PLAC Lille
+1 FAMC @F24@
+0 @I68@ INDI
+1 NAME Adrien/Cuer/
+1 SEX F
+1 BIRT
+2 DATE 4 JUN 2006
+2 PLAC Toulouse
+1 FAMC @F24@
+0 @I69@ INDI
+1 NAME Jean-Michel/Lukowski/
+1 SEX M
+1 OCCU Prâeparateur En Pharmacie
+1 FAMS @F25@
+1 FAMC @F27@
+0 @I70@ INDI
+1 NAME Pierrick/Lukowski/
+1 SEX M
+1 BIRT
+2 DATE 5 MAY 1977
+2 PLAC Meaux
+1 FAMS @F26@
+1 FAMC @F25@
+0 @I71@ INDI
+1 NAME Râemi/Lukowski/
+1 SEX M
+1 BIRT
+2 DATE 8 JAN 1985
+2 PLAC Meaux
+1 FAMC @F25@
+0 @I72@ INDI
+1 NAME Sandra/Bordji/
+1 SEX F
+1 BIRT
+2 DATE 27 MAR 1976
+1 OCCU Fonctionnaire Territoriale
+1 FAMS @F26@
+0 @I73@ INDI
+1 NAME Simon/Lukowski/
+1 SEX M
+1 BIRT
+2 DATE 15 MAY 2003
+2 PLAC Amiens
+1 FAMC @F26@
+0 @I74@ INDI
+1 NAME //
+1 SEX F
+1 FAMS @F27@
+0 @I75@ INDI
+1 NAME /Lukowski/
+1 SEX M
+1 DEAT
+2 DATE 1997
+2 PLAC Meaux , 77, IleFr, FRA
+1 FAMS @F27@
+0 @I76@ INDI
+1 NAME Philippe/Lukowski/
+1 SEX M
+1 BIRT
+2 PLAC Meaux , 77, IleFr, FRA
+1 OCCU Architecte
+1 FAMC @F27@
+0 @I77@ INDI
+1 NAME Rose//
+1 SEX F
+1 FAMS @F28@
+0 @I78@ INDI
+1 NAME /Martin/
+1 SEX M
+1 FAMS @F28@
+0 @I79@ INDI
+1 NAME Louis/Martin/
+1 SEX M
+1 FAMS @F29@
+1 FAMC @F28@
+0 @I80@ INDI
+1 NAME Philippe/Martin/
+1 SEX M
+1 FAMS @F30@
+1 FAMC @F29@
+0 @I81@ INDI
+1 NAME Guillaume/Martin/
+1 SEX M
+1 BIRT
+2 DATE 1985
+2 PLAC Meaux , 77, IleFr, FRA
+1 FAMC @F30@
+0 @F2@ FAM
+1 HUSB @I1@
+1 WIFE @I4@
+1 MARR
+2 DATE 4 JUN 2004
+2 PLAC Saint Maur , 94, IleFr, FRA
+0 @F1@ FAM
+1 HUSB @I2@
+1 WIFE @I3@
+1 CHIL @I5@
+1 CHIL @I1@
+1 MARR
+2 DATE 1973
+2 PLAC Meaux
+0 @F24@ FAM
+1 HUSB @I66@
+1 WIFE @I5@
+1 CHIL @I67@
+1 CHIL @I68@
+0 @F3@ FAM
+1 HUSB @I6@
+1 WIFE @I7@
+1 CHIL @I4@
+1 MARR
+2 DATE 1975
+0 @F4@ FAM
+1 HUSB @I8@
+1 WIFE @I9@
+1 CHIL @I57@
+1 CHIL @I58@
+1 CHIL @I7@
+0 @F5@ FAM
+1 HUSB @I10@
+1 WIFE @I11@
+1 CHIL @I6@
+0 @F6@ FAM
+1 HUSB @I12@
+1 WIFE @I13@
+1 CHIL @I19@
+1 CHIL @I3@
+1 CHIL @I15@
+1 CHIL @I14@
+0 @F7@ FAM
+1 HUSB @I16@
+1 WIFE @I14@
+1 CHIL @I40@
+0 @F9@ FAM
+1 HUSB @I15@
+1 WIFE @I20@
+1 CHIL @I23@
+1 CHIL @I21@
+1 CHIL @I22@
+0 @F8@ FAM
+1 HUSB @I17@
+1 WIFE @I18@
+1 CHIL @I16@
+0 @F10@ FAM
+1 HUSB @I24@
+1 WIFE @I25@
+1 CHIL @I2@
+1 CHIL @I56@
+0 @F11@ FAM
+1 HUSB @I27@
+1 WIFE @I26@
+1 CHIL @I28@
+1 CHIL @I32@
+1 CHIL @I25@
+0 @F12@ FAM
+1 HUSB @I28@
+1 WIFE @I29@
+1 CHIL @I30@
+1 CHIL @I31@
+0 @F16@ FAM
+1 HUSB @I38@
+1 WIFE @I30@
+1 CHIL @I39@
+0 @F21@ FAM
+1 HUSB @I53@
+1 WIFE @I30@
+1 CHIL @I54@
+1 CHIL @I55@
+0 @F13@ FAM
+1 HUSB @I32@
+1 WIFE @I33@
+1 CHIL @I34@
+0 @F14@ FAM
+1 HUSB @I36@
+1 WIFE @I34@
+1 CHIL @I35@
+0 @F15@ FAM
+1 HUSB @I37@
+1 WIFE @I35@
+0 @F17@ FAM
+1 HUSB @I42@
+1 WIFE @I41@
+1 CHIL @I20@
+1 CHIL @I43@
+1 CHIL @I44@
+1 CHIL @I45@
+0 @F18@ FAM
+1 HUSB @I46@
+1 CHIL @I13@
+1 CHIL @I47@
+0 @F19@ FAM
+1 HUSB @I47@
+1 WIFE @I48@
+1 CHIL @I49@
+0 @F20@ FAM
+1 HUSB @I50@
+1 WIFE @I49@
+1 CHIL @I52@
+1 CHIL @I51@
+0 @F25@ FAM
+1 HUSB @I69@
+1 WIFE @I56@
+1 CHIL @I70@
+1 CHIL @I71@
+0 @F22@ FAM
+1 HUSB @I59@
+1 WIFE @I57@
+1 CHIL @I60@
+1 CHIL @I61@
+0 @F23@ FAM
+1 HUSB @I62@
+1 WIFE @I58@
+1 CHIL @I63@
+1 CHIL @I64@
+1 CHIL @I65@
+0 @F26@ FAM
+1 HUSB @I70@
+1 WIFE @I72@
+1 CHIL @I73@
+0 @F27@ FAM
+1 HUSB @I75@
+1 WIFE @I74@
+1 CHIL @I69@
+1 CHIL @I76@
+0 @F28@ FAM
+1 HUSB @I78@
+1 WIFE @I77@
+1 CHIL @I79@
+1 CHIL @I26@
+0 @F29@ FAM
+1 HUSB @I79@
+1 CHIL @I80@
+0 @F30@ FAM
+1 HUSB @I80@
+1 CHIL @I81@
+0 TRLR
