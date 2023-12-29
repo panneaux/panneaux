@@ -1,0 +1,436 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="Jean Michel ANDRY" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style2 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style3 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#4472C4; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#4472C4; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#00B050; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#00B050; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#FF0000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#FF0000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style10 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#FF0000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#FF0000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style11 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#4472C4; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style11 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#4472C4; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style12 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#00B050; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style12 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#00B050; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style13 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#FF0000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style13 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#FF0000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style14 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#FF0000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style14 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#FF0000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style15 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style15 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style16 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#FF0000; font-family:'Calibri'; font-size:11pt; background-color:#FFC000 }
+      th.style16 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#FF0000; font-family:'Calibri'; font-size:11pt; background-color:#FFC000 }
+      td.style17 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#FF0000; font-family:'Calibri'; font-size:11pt; background-color:#FFC000 }
+      th.style17 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#FF0000; font-family:'Calibri'; font-size:11pt; background-color:#FFC000 }
+      td.style18 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#00B050; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style18 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#00B050; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style19 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; text-decoration:underline; color:#4472C4; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style19 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; text-decoration:underline; color:#4472C4; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style20 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#00B050; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style20 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#00B050; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style21 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style21 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style22 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style22 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style23 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#4472C4; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style23 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#4472C4; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style24 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style24 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style25 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      th.style25 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      td.style26 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      th.style26 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      td.style27 { vertical-align:middle; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      th.style27 { vertical-align:middle; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      table.sheet0 col.col0 { width:121.9999986pt }
+      table.sheet0 col.col1 { width:121.9999986pt }
+      table.sheet0 col.col2 { width:121.9999986pt }
+      table.sheet0 col.col3 { width:142.3333317pt }
+      table.sheet0 col.col4 { width:121.9999986pt }
+      table.sheet0 col.col5 { width:121.9999986pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:15.75pt }
+      table.sheet0 tr.row40 { height:15.75pt }
+      table.sheet0 tr.row42 { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s style3" colspan="6">à photographier ou<span style="color:#FF0000; font-family:'Calibri'; font-size:11pt"> rephotographier</span></td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style4 s">Aillières-Beauvoir</td>
+            <td class="column1 style5 s">Crissé</td>
+            <td class="column2 style5 s">Maisoncelles</td>
+            <td class="column3 style5 s">Préval</td>
+            <td class="column4 style5 s">Saint-Ouen-de-Mimbré</td>
+            <td class="column5 style6 s">Verneil-le-Chétif</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style4 s">Ancinnes</td>
+            <td class="column1 style5 s">Cures</td>
+            <td class="column2 style5 s">Mamers</td>
+            <td class="column3 style5 s">Prévelles</td>
+            <td class="column4 style5 s">Saint-Ouen-en-Belin</td>
+            <td class="column5 style6 s">Vernie</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style4 s">Assé-le-Boisne</td>
+            <td class="column1 style5 s">Dangeul</td>
+            <td class="column2 style5 s">Mansigné</td>
+            <td class="column3 style5 s">Pruillé-l'Éguillé</td>
+            <td class="column4 style7 s">Saint-Paterne</td>
+            <td class="column5 style6 s">Vezot</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style4 s">Assé-le-Riboul</td>
+            <td class="column1 style5 s">Dehault</td>
+            <td class="column2 style5 s">Maresché</td>
+            <td class="column3 style5 s">René</td>
+            <td class="column4 style8 s">Saint-Paterne - Le Chevain</td>
+            <td class="column5 style6 s">Villaines-la-Carelle</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style4 s">Avesnes-en-Saosnois</td>
+            <td class="column1 style5 s">Dissé-sous-Ballon</td>
+            <td class="column2 style5 s">Marigné-Laillé</td>
+            <td class="column3 style5 s">Requeil</td>
+            <td class="column4 style5 s">Saint-Paul-le-Gaultier</td>
+            <td class="column5 style6 s">Villaines-sous-Lucé</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style4 s">Avezé</td>
+            <td class="column1 style9 s">Domfront-en-Champagne</td>
+            <td class="column2 style5 s">Marolles-les-Braults</td>
+            <td class="column3 style5 s">Rouessé-Fontaine</td>
+            <td class="column4 style5 s">Saint-Pavace</td>
+            <td class="column5 style10 s">Viré-en-Champagne_</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style11 s">Ballon</td>
+            <td class="column1 style5 s">Doucelles</td>
+            <td class="column2 style5 s">Marollette</td>
+            <td class="column3 style9 s">Rouessé-Vassé</td>
+            <td class="column4 style5 s">Saint-Pierre-des-Ormes</td>
+            <td class="column5 style6 s">Vivoin</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style12 s">Ballon-Saint Mars</td>
+            <td class="column1 style5 s">Douillet</td>
+            <td class="column2 style5 s">Mayet</td>
+            <td class="column3 style9 s">Rouez</td>
+            <td class="column4 style5 s">Saint-Pierre-du-Lorouër</td>
+            <td class="column5 style6 s">Yvré-le-Pôlin</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style4 s">Beaufay</td>
+            <td class="column1 style5 s">Écommoy</td>
+            <td class="column2 style5 s">Meurcé</td>
+            <td class="column3 style5 s">Roullée</td>
+            <td class="column4 style5 s">Saint-Rémy-de-Sillé</td>
+            <td class="column5 style13 s">Yvré-l'Évêque</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style14 s">Beaumont-Pied-de-Bœuf</td>
+            <td class="column1 style5 s">Évaillé</td>
+            <td class="column2 style5 s">Mézeray</td>
+            <td class="column3 style5 s">Rouperroux-le-Coquet</td>
+            <td class="column4 style5 s">Saint-Rémy-des-Monts</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style4 s">Beaumont-sur-Sarthe</td>
+            <td class="column1 style5 s">Fatines</td>
+            <td class="column2 style5 s">Mézières-sous-Lavardin</td>
+            <td class="column3 style5 s">Ruillé-en-Champagne</td>
+            <td class="column4 style5 s">Saint-Rémy-du-Val</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style4 s">Bernay-en-Champagne</td>
+            <td class="column1 style5 s">Fresnay-sur-Sarthe</td>
+            <td class="column2 style5 s">Mézières-sur-Ponthouin</td>
+            <td class="column3 style5 s">Saint-Aignan</td>
+            <td class="column4 style5 s">Saint-Rigomer-des-Bois</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style4 s">Béthon</td>
+            <td class="column1 style5 s">Fyé</td>
+            <td class="column2 style5 s">Moitron-sur-Sarthe</td>
+            <td class="column3 style5 s">Saint-Aubin-de-Locquenay</td>
+            <td class="column4 style5 s">Saint-Saturnin</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style4 s">Blèves</td>
+            <td class="column1 style5 s">Gesnes-le-Gandelin</td>
+            <td class="column2 style5 s">Moncé-en-Belin</td>
+            <td class="column3 style5 s">Saint-Biez-en-Belin</td>
+            <td class="column4 style5 s">Saint-Symphorien</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style4 s">Boëssé-le-Sec</td>
+            <td class="column1 style5 s">Grandchamp</td>
+            <td class="column2 style5 s">Moncé-en-Saosnois</td>
+            <td class="column3 style5 s">Saint-Calez-en-Saosnois</td>
+            <td class="column4 style5 s">Saint-Victeur</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style4 s">Bonnétable</td>
+            <td class="column1 style16 s">Guécélard <span style="font-weight:bold; color:#FF0000; font-family:'Calibri'; font-size:11pt">NPC</span></td>
+            <td class="column2 style5 s">Monhoudou</td>
+            <td class="column3 style5 s">Saint-Célerin</td>
+            <td class="column4 style5 s">Saint-Vincent-des-Prés</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style4 s">Bourg-le-Roi</td>
+            <td class="column1 style5 s">Jauzé</td>
+            <td class="column2 style5 s">Montbizot</td>
+            <td class="column3 style5 s">Saint-Christophe-du-Jambet</td>
+            <td class="column4 style5 s">Saint-Vincent-du-Lorouër</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style4 s">Briosne-lès-Sables</td>
+            <td class="column1 style5 s">Joué-l'Abbé</td>
+            <td class="column2 style5 s">Montfort-le-Gesnois</td>
+            <td class="column3 style5 s">Saint-Corneille</td>
+            <td class="column4 style5 s">Saosnes</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style14 s">Cérans-Fouilletourte</td>
+            <td class="column1 style5 s">Juillé</td>
+            <td class="column2 style5 s">Montigny</td>
+            <td class="column3 style5 s">Saint-Cosme-en-Vairais</td>
+            <td class="column4 style5 s">Sarcé</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style4 s">Champagné</td>
+            <td class="column1 style5 s">La Bazoge</td>
+            <td class="column2 style5 s">Montreuil-le-Chétif</td>
+            <td class="column3 style5 s">Saint-Denis-des-Coudrais</td>
+            <td class="column4 style5 s">Sargé-lès-le-Mans</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style4 s">Champfleur</td>
+            <td class="column1 style5 s">La Bosse</td>
+            <td class="column2 style5 s">Montreuil-le-Henri</td>
+            <td class="column3 style9 s">Saint-Denis-d'Orques</td>
+            <td class="column4 style5 s">Savigné-l'Évêque</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style4 s">Chassé</td>
+            <td class="column1 style5 s">La Chapelle-du-Bois</td>
+            <td class="column2 style5 s">Mont-Saint-Jean</td>
+            <td class="column3 style5 s">Sainte-Jamme-sur-Sarthe</td>
+            <td class="column4 style5 s">Ségrie</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style4 s">Château-l'Hermitage</td>
+            <td class="column1 style5 s">La Chapelle-Saint-Fray</td>
+            <td class="column2 style5 s">Nauvay</td>
+            <td class="column3 style5 s">Sainte-Osmane</td>
+            <td class="column4 style9 s">Sillé-le-Guillaume</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style14 s">Chemiré-en-Charnie</td>
+            <td class="column1 style5 s">La Chapelle-Saint-Rémy</td>
+            <td class="column2 style5 s">Neufchâtel-en-Saosnois</td>
+            <td class="column3 style5 s">Sainte-Sabine-sur-Longève</td>
+            <td class="column4 style5 s">Sillé-le-Philippe</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style4 s">Chenay</td>
+            <td class="column1 style5 s">La Fontaine-Saint-Martin</td>
+            <td class="column2 style5 s">Neuvillalais</td>
+            <td class="column3 style5 s">Saint-Georges-de-la-Couée</td>
+            <td class="column4 style5 s">Sougé-le-Ganelon</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style4 s">Chérancé</td>
+            <td class="column1 style5 s">La Fresnaye-sur-Chédouet</td>
+            <td class="column2 style5 s">Neuville-sur-Sarthe</td>
+            <td class="column3 style5 s">Saint-Georges-du-Rosay</td>
+            <td class="column4 style5 s">Souillé</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style4 s">Chérisay</td>
+            <td class="column1 style5 s">La Guierche</td>
+            <td class="column2 style5 s">Neuvillette-en-Charnie</td>
+            <td class="column3 style5 s">Saint-Georges-le-Gaultier</td>
+            <td class="column4 style5 s">Souligné-sous-Ballon</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style4 s">Cogners</td>
+            <td class="column1 style9 s">La Milesse</td>
+            <td class="column2 style5 s">Neuvy-en-Champagne</td>
+            <td class="column3 style5 s">Saint-Germain-sur-Sarthe</td>
+            <td class="column4 style5 s">Souvigné-sur-Même</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style4 s">Commerveil</td>
+            <td class="column1 style5 s">Laigné-en-Belin</td>
+            <td class="column2 style5 s">Nogent-le-Bernard</td>
+            <td class="column3 style5 s">Saint-Gervais-en-Belin</td>
+            <td class="column4 style5 s">Tassillé</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style4 s">Congé-sur-Orne</td>
+            <td class="column1 style7 s">Le Chevain</td>
+            <td class="column2 style5 s">Nouans</td>
+            <td class="column3 style7 s">Saint-Hilaire-le-Lierru</td>
+            <td class="column4 style5 s">Teillé</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style14 s">Conlie</td>
+            <td class="column1 style5 s">Le Tronchet</td>
+            <td class="column2 style5 s">Oisseau-le-Petit</td>
+            <td class="column3 style5 s">Saint-Jean-d'Assé</td>
+            <td class="column4 style5 s">Teloché</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style4 s">Contilly</td>
+            <td class="column1 style5 s">Les Aulneaux</td>
+            <td class="column2 style5 s">Oizé</td>
+            <td class="column3 style5 s">Saint-Jean-de-la-Motte</td>
+            <td class="column4 style5 s">Tennie</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style4 s">Coulaines</td>
+            <td class="column1 style5 s">Les Mées</td>
+            <td class="column2 style5 s">Panon</td>
+            <td class="column3 style5 s">Saint-Jean-du-Bois</td>
+            <td class="column4 style5 s">Terrehault</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style4 s">Coulombiers</td>
+            <td class="column1 style5 s">Lignières-la-Carelle</td>
+            <td class="column2 style5 s">Parennes</td>
+            <td class="column3 style5 s">Saint-Léonard-des-Bois</td>
+            <td class="column4 style5 s">Thoigné</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style4 s">Coulongé</td>
+            <td class="column1 style5 s">Ligron</td>
+            <td class="column2 style5 s">Parigné-le-Pôlin</td>
+            <td class="column3 style5 s">Saint-Longis</td>
+            <td class="column4 style5 s">Thoiré-sous-Contensor</td>
+            <td class="column5 style17 s">perso à re<span style="font-weight:bold; color:#FF0000; font-family:'Calibri'; font-size:11pt">faire</span></td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style4 s">Courceboeufs</td>
+            <td class="column1 style5 s">Livet-en-Saosnois</td>
+            <td class="column2 style5 s">Peray</td>
+            <td class="column3 style5 s">Saint-Marceau</td>
+            <td class="column4 style5 s">Torcé-en-Vallée</td>
+            <td class="column5 style10 s">déjà sur CdF</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style4 s">Courcemont</td>
+            <td class="column1 style5 s">Lombron</td>
+            <td class="column2 style5 s">Pezé-le-Robert</td>
+            <td class="column3 style5 s">Saint-Mars-de-Locquenay</td>
+            <td class="column4 style5 s">Tresson</td>
+            <td class="column5 style18 s">commune nouvelle</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style4 s">Courcival</td>
+            <td class="column1 style5 s">Louvigny</td>
+            <td class="column2 style5 s">Piacé</td>
+            <td class="column3 style5 s">Saint-Mars-d'Outillé</td>
+            <td class="column4 style7 s">Tuffé</td>
+            <td class="column5 style19 s">disparu et sur CdF</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style4 s">Courdemanche</td>
+            <td class="column1 style5 s">Louzes</td>
+            <td class="column2 style5 s">Pizieux</td>
+            <td class="column3 style9 s">Saint-Mars-la-Brière</td>
+            <td class="column4 style20 s">Tuffé Val de la Chéronne</td>
+            <td class="column5 style15 null"></td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style21 s">Courgains</td>
+            <td class="column1 style22 s">Lucé-sous-Ballon</td>
+            <td class="column2 style22 s">Pontvallain</td>
+            <td class="column3 style23 s">Saint-Mars-sous-Ballon</td>
+            <td class="column4 style22 s">Vancé</td>
+            <td class="column5 style24 null"></td>
+          </tr>
+          <tr class="row41">
+            
+          </tr>
+          <tr class="row42">
+            <td class="column0 style26 s style26" colspan="4"><a href="index.html" title="">Retour à la page du département de la Sarthe</a></td>
+            <td class="column5 style27 s style27" colspan="2"><a href="..\AFAIRE\Mes communes à faire- accueil.htm" title="">retour à la carte des départements incomplets</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>
